@@ -1,7 +1,5 @@
 #cloud-config
-
-hostname: ros-base
-
+hostname: rosbase
 rancher:
   network:
     interfaces:
