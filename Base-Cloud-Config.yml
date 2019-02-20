@@ -1,6 +1,6 @@
 #cloud-config
 
-hostname: template_ros
+hostname: ros-base
 
 rancher:
   network:
