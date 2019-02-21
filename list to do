@@ -1,3 +1,5 @@
-sudo passwd rancher
-ssh int device
-
+virtualbox create linuc machine 2gb mem 20 gb hdd
+launch
+sudo passwd rancher # set password
+ssh into device
+sudo ros install -c https://github.com/mike-mccabe/rancher/Base-Cloud-Config.yml -d /dev/sda
