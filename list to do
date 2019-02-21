@@ -1,0 +1,3 @@
+sudo passwd rancher
+ssh int device
+
