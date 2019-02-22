@@ -1,3 +1,4 @@
+git pull https://github.com/mike-mccabe/rancher
 virtualbox create linux machine 2gb mem 20 gb hdd
 launch
 sudo passwd rancher # set password
