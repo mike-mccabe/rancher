@@ -3,4 +3,4 @@ virtualbox create linux machine 2gb mem 20 gb hdd
 launch
 sudo passwd rancher # set password
 ssh into device
-sudo ros install -c https://github.com/mike-mccabe/rancher/cloud-config.yml -d /dev/sda    
+sudo ros install -c https://github.com/mike-mccabe/rancher/blob/master/cloud-config.yml -d /dev/sda  
