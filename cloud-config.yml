@@ -1,5 +1,5 @@
 #cloud-config
-hostname: template
+hostname: template1
 rancher:
   network:
     interfaces:
