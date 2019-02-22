@@ -1,5 +1,5 @@
 #cloud-config
-hostname: template1
+hostname: rostemp
 rancher:
   network:
     interfaces:
