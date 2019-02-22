@@ -1,5 +1,5 @@
 #cloud-config
-hostname: rosbase
+hostname: template
 rancher:
   network:
     interfaces:
@@ -10,4 +10,4 @@ rancher:
         bridge: br0
 
 ssh_authorized_keys:
- -ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEnG5Bh538J9cLLkpQXFB0y62rlyOF4q/0HiznqAm7qpkefOYMn4LGDwiWs42S+i00F+/uRND1gCzuFjZ5jEYW14PfJI0+/VTSls58IuBBQ7NNfAUz41kpfLupIyjs/ywHIZDSPO6mCdh7VOXnc+9Ka6M0FbweHP4pm/ZFn/jighiirKixV65RVnbU82YAT62alF+VWQ5mSTwzh8gg7CL/8UoGloRGIcFRF5bTJ8IW3eGDS+SY6uqMkqwBRloEZMWXvlAJmi9rhOHhiyIZ4ePVkKsDZ1mJPwspU36oFC9bXUqb1I+/asa97lZUUZZh4NrI9EJs/PB5muDjZfuhWIbx
+ -ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDEnG5Bh538J9cLLkpQXFB0y62rlyOF4q0HiznqAm7qpkefOYMn4LGDwiWs42S+i00F+uRND1gCzuFjZ5jEYW14PfJI0+VTSls58IuBBQ7NNfAUz41kpfLupIyjsywHIZDSPO6mCdh7VOXnc+9Ka6M0FbweHP4pmZFnjighiirKixV65RVnbU82YAT62alF+VWQ5mSTwzh8gg7CL8UoGloRGIcFRF5bTJ8IW3eGDS+SY6uqMkqwBRloEZMWXvlAJmi9rhOHhiyIZ4ePVkKsDZ1mJPwspU36oFC9bXUqb1I+asa97lZUUZZh4NrI9EJsPB5muDjZfuhWIbx michael@amd
