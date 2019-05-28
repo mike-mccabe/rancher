@@ -5,3 +5,4 @@ sudo passwd rancher # set password
 ssh into device
 sudo ros install -c https://raw.githubusercontent.com/mike-mccabe/rancher/master/cloud-config.yml -d /dev/sda
 https://linuxhint.com/install_rancher_os/
+sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
