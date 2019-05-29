@@ -7,3 +7,4 @@ sudo ros install -c https://raw.githubusercontent.com/mike-mccabe/rancher/master
 https://linuxhint.com/install_rancher_os/
 sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 rancher/rancher
 docker-machine create -d virtualbox --virtualbox-boot2docker-url https://releases.rancher.com/os/latest/rancheros.iso node1
+cat ~/.ssh/id_rsa.pub
