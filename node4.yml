@@ -1,0 +1,15 @@
+#cloud-config
+hostname: node4
+rancher:
+  network:
+    interfaces:
+      br0:
+        bridge: true
+        dhcp: true
+      eth0:
+        bridge: br0
+
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7wuz32SpkewONRIJuOfQM4vO4/udZPTkGM9nj1s8EmiJ9M3HbnwmWB/c630RCB4F9qHwLiVHjsGdx5oPiOZd7S19Azcwt8EoXxJdsRtV6/8KSk69n78tCFsM5rZcfwRJAG0QVztHR1ZQFaklupMHQSiNAOvgmWV7SlTrLclQpN7gGEoOQRRu3GEyVI/5RQySV7ZE81DdJX3tzHfp3CkaVIXs+2Eqq0da20/2lsfHkwhKoO42jBlRBVAN5KUnUKeF4zg6CQ5jm8r+5vJzVC1CcgyfTACHxNaOjFIA/x1uScbHzZWe0tEc2sqYFKzUf2KgMCysB2r61UPYoJLQRlO/F michael@kali
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDXsl9/i7Mzb4lhjhTf1ozci5R8q5Nt1DG57ffj25hvQ//k7OMOdqTkxFRwuR2H1cyCO1QWt2WrcXtu5jlrpWxKUOnpqplA+Ad65ZFFLNm3oH2ueAX4oLdUN24IiHWzn/NtCPd0t6lj9iDCxrpSf9AmKBZtFfuy6R3WwXsnrU8o4xzBLPiTYJP6SFmLCewsHiB3s1BmdjsQP4BS8cgw5dZ9VSIUUThrtXtpJ3QemTVk+TS7sSLotciQaU+EYHeaYJTYHDF/Cu8Rcm0DlsZtRcD4xfyFo2rJiyFypUpUG+RlSQQ3mKh9KyLl/ZXL+IvIbYZ9f2e8qOTM/kUhkX/X1ffl michael@amd
+ 
