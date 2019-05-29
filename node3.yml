@@ -1,5 +1,5 @@
 #cloud-config
-hostname: rancher
+hostname: node3
 rancher:
   network:
     interfaces:
